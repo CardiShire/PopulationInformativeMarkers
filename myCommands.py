@@ -38,7 +38,7 @@ for combo in itertools.combinations(arguments, 2):
 	
 	print("samtools mpileup ", combo[0], " ", combo[1], 
 		" | ./fstiminator.py | gzip -9 > " , f1 , "_" , f2 , 
-		"_", str(d).split()[0], "05172021.fst.gz" , sep="")
+		"_", str(d).split()[0], ".fst.gz" , sep="")
 
 
 

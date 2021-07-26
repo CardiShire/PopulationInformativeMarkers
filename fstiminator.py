@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import sys
-from MyPopGen_04292021 import FST
+from MyPopGen import FST
 
 args = sys.argv[1:]
 
